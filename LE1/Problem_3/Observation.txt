@@ -1,0 +1,4 @@
+// 1) When none of the hear() method set static -> It prints "Hi from Child class."
+// 2) When hear() set to be static in Mother class -> Throws error "Can't override hear() in child as it is set to be static in Mother."
+// 3) When hear() set to be static in Child class -> Throws error "Can't override hear() in child as it is set to be static in Mother."
+// 4) When hear() set to be static in both -> It prints "Hi from Mother class."
